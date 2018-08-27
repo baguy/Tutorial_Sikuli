@@ -122,12 +122,12 @@ Arraste o mouse para criar um retângulo no objeto que deseja ser encontrado pel
 
 No menu à esquerda da IDE, na área de _Ação do mouse_, a função _click()_ é usada para criar uma ação de clique.
 
-![alt text](imagens/08_click.png "Função Click")
+![alt text](https://github.com/baguy/Tutorial_Sikuli/blob/master/imagens/08_click.png "Função Click")
 ###### Função _click()_
 
 A função _doubleClick()_ é usada para criar uma ação de clique duplo.
 
-![alt text](imagens/09_doubleClick.png "Função Double Click")
+![alt text](https://github.com/baguy/Tutorial_Sikuli/blob/master/imagens/09_double.png "Função Double Click")
 ###### Inserir função _doubleClick()_
 
 Ao clicar no botão para inseri-las, ambas as funções abrem automaticamente a captura de tela. Arraste o mouse para criar um retângulo no objeto que deseja ser encontrado pelo Sikuli.
