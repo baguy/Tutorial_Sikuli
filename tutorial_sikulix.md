@@ -131,7 +131,7 @@ A função _doubleClick()_ é usada para criar uma ação de clique duplo.
 
 Ao clicar no botão para inseri-las, ambas as funções abrem automaticamente a captura de tela. Arraste o mouse para criar um retângulo no objeto que deseja ser encontrado pelo Sikuli.
 
-Ao capturar a imagem, uma cruz vermelha aparecerá indicando o centro da imagem; durante o teste, o Sikuli clicará onde é indicado pelo centro desta cruz vermelha. Para editar onde o Sikuli deve clicar, clique na imagem (na IDE), selecione _Desvio do alvo_ no menu superior, clique onde deve ser clicado na imagem e, em seguida, clique em _Aplicar_, depois _Ok_.
+Ao capturar a imagem, uma cruz vermelha pontilhada aparecerá indicando o centro da imagem (após inserir a função de clicar); durante o teste, o Sikuli clicará onde é indicado por esta cruz vermelha, no centro da imagem. Para editar onde o Sikuli deve clicar, clique na imagem (na IDE), selecione _Desvio do alvo_ no menu superior, clique onde deve ser clicado na imagem e, em seguida, selecione em _Aplicar_, depois _Ok_.
 
 ### Wait
 
