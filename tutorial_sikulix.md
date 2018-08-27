@@ -8,8 +8,8 @@ O Sikulix é capaz de ações mais complexas do que apresentadas neste tutorial;
 
 - Download
 - IDE
+- Menu de funções
 - Formulário de exemplo
-- Teste
 - Funções mais usadas
 - Caracteres especiais
 - Executar o teste
@@ -26,15 +26,15 @@ O Sikulix é capaz de ações mais complexas do que apresentadas neste tutorial;
 ![alt text](https://github.com/baguy/Tutorial_Sikuli/blob/master/imagens/01.PNG "IDE do Sikulix")
 ###### IDE do Sikulix
 
+## Menu de funções
+
+![alt text](https://github.com/baguy/Tutorial_Sikuli/blob/master/imagens/04_menu.png "Menu IDE Sikuli")
+###### Menu IDE Sikuli
+
 ## Formulário de exemplo
 
 ![alt text](https://github.com/baguy/Tutorial_Sikuli/blob/master/imagens/02.PNG "Formulário de Produto")
 ###### Formulário de cadastro de Produto
-
-## Teste
-
-![alt text](https://github.com/baguy/Tutorial_Sikuli/blob/master/imagens/04_menu.png "Menu IDE Sikuli")
-###### Menu IDE Sikuli
 
 ### Script de teste
 
