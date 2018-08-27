@@ -12,7 +12,8 @@ O Sikulix é capaz de ações mais complexas do que apresentadas neste tutorial;
 - Teste
 - Funções mais usadas
 - Caracteres especiais
-- Rodar o teste
+- Executar o teste
+- Pós-teste
 - Nomear arquivos
 - Resolução
 
@@ -162,12 +163,14 @@ type(**','**, **Key.SHIFT**)
 O uso de caracteres especiais podem ser encontrados na documentação:
 [Special Keys](http://doc.sikuli.org/keys.html#special-keys)
 
-## Rodar o teste
+## Executar o teste
 
 Para rodar o teste, é necessário salvar o arquivo primeiro (Arquivo > Salvar) e, então, clicar em _Executar_ no menu superior.
 
 ![alt text](imagens/10_executar.png "Botão Executar")
 ###### Clicar no botão Executar para rodar o teste
+
+## Pós-teste
 
 ### Mensagens de alerta
 
@@ -183,13 +186,15 @@ Caso o teste seja bem sucedido, o relatório retorna em letras verdes e descreve
 ![alt text](https://github.com/baguy/Tutorial_Sikuli/blob/master/imagens/11_sucesso.PNG "Mensagem de teste bem sucedido")
 ###### Mensagem de teste bem sucedido.
 
+O relatório pós-teste do Sikuli indica se ele foi capaz de exercer todas as funções programadas no script e em quantos milissegundos, mas não relata se o programa sendo testado se comportou da forma esperada, ou seja, o teste deve ser supervisionado para verificar os resultados das ações do script.
+
 ## Nomear arquivos
 
-Os arquivos do Sikulix não suportam acentos, portanto, não devem ser utilizados quando salvar arquivos.
+Os arquivos do Sikulix não suportam acentos, portanto, não devem ser utilizados quando salvar arquivos nem na função _type()_.
 
 ## Resolução
 
-Um teste feito em um computador com uma determinada resolução, pode não funcionar em outro computador com uma resolução diferente.
+Um teste feito em um computador com uma determinada resolução pode não funcionar em outro computador com uma resolução diferente.
 
 ## Recursos
 
