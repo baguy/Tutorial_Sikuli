@@ -172,8 +172,6 @@ Para rodar o teste, é necessário salvar o arquivo primeiro (Arquivo > Salvar) 
 
 ## Pós-teste
 
-### Mensagens de alerta
-
 Após o teste ser bem sucedido ou não, o script gera um relatório na caixa de mensagens no inferior da IDE.
 
 ![alt text](https://github.com/baguy/Tutorial_Sikuli/blob/master/imagens/03_erro.PNG "Mensagem de teste falho")
