@@ -99,19 +99,17 @@ find( ![alt text](imagens/1533776396884.png "Botão de Cadastrar") )
 
 click( ![alt text](imagens/1533776396884.png "Botão de Cadastrar") )
 
-Este teste clica Em _Produto_ no menu, seleciona a opção _Cadastrar_, preenche todos os campos do formulário Produto, seleciona um fornecedor e clica na opção _Cadastrar_.
+Este teste clica na opção _Produto_ no menu lateral, seleciona a opção _Cadastrar_ (menu dropdown), preenche todos os campos do formulário Produto, seleciona um fornecedor (caixa de seleção) e clica na opção _Cadastrar_.
 
 ## Funções mais usadas
 
-A IDE do Sikuli oferece a inserção de funções com apenas um clique. Entretanto, elas podem ser digitadas normalmente.
-
-Para uma função que exige imagem, após digitá-la, o usuário deve usar o botão _Captura imagem da tela_ para abrir a ferramenta que o permitirá criar um retângulo na região que deseja usar. Como alternativa, o usuário pode usar uma imagem já capturada (a imagem deve estar salva na mesma pasta do script) e usar o nome da imagem dentro de parêntesis seguido da extensão do arquivo (.png, .jpg, etc).
+A IDE do Sikuli oferece a inserção de funções com apenas um clique. Entretanto, elas podem ser digitadas normalmente. Para uma função que exige imagem, após digitá-la, o usuário deve usar o botão _Captura imagem da tela_ para abrir a ferramenta que o permitirá criar um retângulo na região da tela que deseja usar. Como alternativa, o usuário pode usar uma imagem já capturada (a imagem deve estar salva na mesma pasta do script) e usar o nome da imagem dentro de parêntesis e entre aspas, seguido da extensão do arquivo (.png, .jpg, etc).
 
 Exemplo: find("imagem.png")
 
 ### Find
 
-No menu à esquerda da IDE, na área de Localizar, a função _find()_ é usada para encontrar um objeto na tela do computador. Ao clicar no botão para inserir a função, a IDE abre automaticamente a ferramenta de captura de tela.
+No menu à esquerda da IDE, na área _Localizar_, a função _find()_ é usada para encontrar um objeto na tela do computador. Ao clicar no botão para inserir a função, a IDE abre automaticamente a ferramenta de captura de tela.
 
 ![alt text](imagens/05_find.png "Função find")
 ###### Função _find()_
@@ -132,7 +130,7 @@ A função _doubleClick()_ é usada para criar uma ação de clique duplo.
 
 Ao clicar no botão para inseri-las, ambas as funções abrem automaticamente a captura de tela. Arraste o mouse para criar um retângulo no objeto que deseja ser encontrado pelo Sikuli.
 
-Ao capturar a imagem, uma cruz vermelha aparecerá indicando o centro da imagem; durante o teste, o Sikuli clicará onde é indicado pelo centro desta cruz vermelha. Para editar onde o Sikuli deve clicar, clique na imagem, selecione _Desvio do alvo_ no menu superior, clique onde deve ser clicado na imagem e, em seguida, clique em _Aplicar_, depois _Ok_.
+Ao capturar a imagem, uma cruz vermelha aparecerá indicando o centro da imagem; durante o teste, o Sikuli clicará onde é indicado pelo centro desta cruz vermelha. Para editar onde o Sikuli deve clicar, clique na imagem (na IDE), selecione _Desvio do alvo_ no menu superior, clique onde deve ser clicado na imagem e, em seguida, clique em _Aplicar_, depois _Ok_.
 
 ### Wait
 
