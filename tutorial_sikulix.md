@@ -151,7 +151,7 @@ Exemplo: type(*"texto"*) ou type(*'texto'*)
 
 ## Caracteres especiais
 
-Caracteres especiais devem ser usados dentro da função _type()_ sem aspas. O sinal de mais (*+*) concatena ações. Para combinar teclas, a vírgula (*,*) é usada.
+Caracteres especiais devem ser usados dentro da função _type()_ sem aspas. O sinal de mais (**+**) concatena ações. Para combinar teclas, a vírgula (**,**) é usada.
 
 Exemplos:
 type(**Key.DOWN** + **Key.ENTER**)
@@ -160,7 +160,7 @@ type(**Key.DOWN** + **Key.ENTER**)
 type(**','**, **Key.SHIFT**)
 ###### Simula segurar a tecla SHIFT e apertar a vírgula. Digita o símbolo de menor: <
 
-O uso de caracteres especiais podem ser encontrados na documentação:
+O uso de caracteres especiais pode ser encontrados na documentação:
 [Special Keys](http://doc.sikuli.org/keys.html#special-keys)
 
 ## Executar o teste
