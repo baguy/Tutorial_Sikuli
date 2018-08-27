@@ -176,7 +176,7 @@ Para rodar o teste, é necessário salvar o arquivo primeiro (Arquivo > Salvar) 
 Após o teste ser bem sucedido ou não, o script gera um relatório na caixa de mensagens no inferior da IDE.
 
 ![alt text](https://github.com/baguy/Tutorial_Sikuli/blob/master/imagens/03_erro.PNG "Mensagem de teste falho")
-###### Exemplo de relatório mal sucedido.
+###### Exemplo de relatório mal sucedido. Neste caso, o teste é interrompido de imediato.
 
 O texto vermelho indica que não foi possível encontrar o elemento pedido em determinada região.
 
