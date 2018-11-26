@@ -8,10 +8,12 @@ O Sikulix é capaz de ações mais complexas do que apresentadas neste tutorial;
 
 - Download
 - IDE
+- Linguagem
 - Menu de funções
 - Formulário de exemplo
 - Funções mais usadas
 - Caracteres especiais
+- Inserir barra (/)
 - Executar o teste
 - Pós-teste
 - Nomear arquivos
@@ -25,6 +27,9 @@ O Sikulix é capaz de ações mais complexas do que apresentadas neste tutorial;
 
 ![alt text](https://github.com/baguy/Tutorial_Sikuli/blob/master/imagens/01.PNG "IDE do Sikulix")
 ###### IDE do Sikulix
+
+## Linguagem
+Python
 
 ## Menu de funções
 
@@ -162,6 +167,15 @@ type(**','**, **Key.SHIFT**)
 
 O uso de caracteres especiais pode ser encontrados na documentação:
 [Special Keys](http://doc.sikuli.org/keys.html#special-keys)
+
+## Inserir barra (/)
+
+```
+    def typeSlash():
+        keyDown(Key.ALT)
+        type(Key.NUM4+Key.NUM7)
+        keyUp()
+```
 
 ## Executar o teste
 
