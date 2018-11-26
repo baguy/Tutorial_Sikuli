@@ -108,7 +108,7 @@ click( ![alt text](imagens/1533776396884.png "Botão de Cadastrar") )
 
 Este teste clica na opção _Produto_ no menu lateral, seleciona a opção _Cadastrar_ (menu dropdown), preenche todos os campos do formulário Produto, seleciona um fornecedor (caixa de seleção) e clica na opção _Cadastrar_.
 
-## Funções mais usadas
+## - Funções mais usadas
 
 A IDE do Sikuli oferece a inserção de funções com apenas um clique. Entretanto, elas podem ser digitadas normalmente. Para uma função que exige imagem, após digitá-la, o usuário deve usar o botão _Captura imagem da tela_ para abrir a ferramenta que o permitirá criar um retângulo na região da tela que deseja usar. Como alternativa, o usuário pode usar uma imagem já capturada (a imagem deve estar salva na mesma pasta do script) e usar o nome da imagem dentro de parêntesis e entre aspas, seguido da extensão do arquivo (.png, .jpg, etc).
 
