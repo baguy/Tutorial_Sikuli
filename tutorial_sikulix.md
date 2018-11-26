@@ -123,7 +123,7 @@ No menu à esquerda da IDE, na área _Localizar_, a função _find()_ é usada p
 
 Arraste o mouse para criar um retângulo no objeto que deseja ser encontrado pelo Sikuli.
 
-### Click e Double Click
+- ### Click e Double Click
 
 No menu à esquerda da IDE, na área de _Ação do mouse_, a função _click()_ é usada para criar uma ação de clique.
 
@@ -139,14 +139,14 @@ Ao clicar no botão para inseri-las, ambas as funções abrem automaticamente a 
 
 Ao capturar a imagem, uma cruz vermelha pontilhada aparecerá indicando o centro da imagem (após inserir a função de clicar); durante o teste, o Sikuli clicará onde é indicado por esta cruz vermelha, no centro da imagem. Para editar onde o Sikuli deve clicar, clique na imagem (na IDE), selecione _Desvio do alvo_ no menu superior, clique onde deve ser clicado na imagem e, em seguida, selecione em _Aplicar_, depois _Ok_.
 
-### Wait
+- ### Wait
 
 A função _wait()_ serve para fazer o Sikuli esperar algum elemento aparecer na tela antes de continuar o teste do script. Pode ser encontrada em _Localizar_, no menu ao lado esquerdo da IDE.
 
 ![alt text](imagens/06_wait.png "Função wait")
 ###### Inserir função _wait()_
 
-### Type
+- ### Type
 
 A função _type()_ pode ser encontrada no menu à esquerda da IDE. É usada para fazer o Sikuli inserir texto. O texto dentro da função deve estar envolto de aspas.
 
@@ -155,7 +155,7 @@ Exemplo: type(*"texto"*) ou type(*'texto'*)
 ![alt text](imagens/07_type.png "Função type")
 ###### Inserir função _type()_
 
-### Sleep
+- ### Sleep
 
 Caso o teste dê erro antes da página carregar, insira uma função de _sleep(n)_ no qual n = segundos em que a rotina irá aguardar antes de dar continuidade.
 
