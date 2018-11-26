@@ -30,6 +30,7 @@ O Sikulix é capaz de ações mais complexas do que apresentadas neste tutorial;
 
 ## Linguagem
 Python
+O Sikulix suporta funções normalmente e loops escritos em Python normalmente.
 
 ## Menu de funções
 
