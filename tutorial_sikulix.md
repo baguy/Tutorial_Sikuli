@@ -155,6 +155,10 @@ Exemplo: type(*"texto"*) ou type(*'texto'*)
 ![alt text](imagens/07_type.png "Função type")
 ###### Inserir função _type()_
 
+### Sleep
+
+Caso o teste dê erro antes da página carregar, insira uma função de _sleep(n)_ no qual n = segundos em que a rotina irá aguardar antes de dar continuidade.
+
 ## Caracteres especiais
 
 Caracteres especiais devem ser usados dentro da função _type()_ sem aspas. O sinal de mais (**+**) concatena ações. Para combinar teclas, a vírgula (**,**) é usada.
