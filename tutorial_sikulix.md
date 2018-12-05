@@ -1,4 +1,5 @@
 # Tutorial Sikulix
+#### Por: Mayra Dantas Bueno
 
 [Sikulix](http://sikulix.com/) é uma ferramenta para automatizar testes, simulando a interação do usuário com o programa, através de capturas de tela.
 
